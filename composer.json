@@ -1,0 +1,31 @@
+{
+    "name": "crackerjackdigital/silverstripe-url-shortener",
+    "type": "silverstripe-module",
+    "description": "Get a short url version for a long link",
+    "homepage": "http://github.com/crackerjackdigital",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe"],
+    "authors": [        
+        {
+            "name": "Nathaniel Ashiagbor",
+            "homepage": "http://ashiagbor.com"
+        },
+        {
+            "name": "Steve Wake",
+            "homepage": "https://github.com/wakes"
+        },
+        {
+            "name": "CrackerJack Digital",
+            "homepage": "http://www.crackerjack.net.nz/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "composer/installers": "*",
+        "silverstripe/framework": ">=3.1"
+    },
+    "extra": {
+        "installer-name": "url-shortener"
+    },
+    "minimum-stability": "dev"
+}

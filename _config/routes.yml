@@ -1,0 +1,6 @@
+---
+Name: short-url-routes
+---
+Director:
+  rules:
+    'link/$ShortCode': 'ShortURL_Controller'
