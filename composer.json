@@ -1,7 +1,7 @@
 {
     "name": "crackerjackdigital/silverstripe-url-shortener",
     "type": "silverstripe-module",
-    "description": "Get a short url version for a long link",
+    "description": "Get a short url version for a long page link",
     "homepage": "http://github.com/crackerjackdigital",
     "license": "BSD-3-Clause",
     "keywords": ["silverstripe"],

@@ -1,2 +1,2 @@
-# silverstripe-utils
-Crackerjack Digital Utilities and Common Functionality for SilverStripe
+# SilverStripe URL Shortener
+Crackerjack Digital URL shortener for SilverStripe
