@@ -9,6 +9,13 @@ class ShortURLExtension extends Extension {
 			$url = $_SERVER["REQUEST_URI"];
 		}
 
-		return ShortUrlModel::getURL($url);
+		$pageURL = (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://";
+		if ($_SERVER["SERVER_PORT"] != "80") {
+			$pageURL .= $_SERVER["SERVER_NAME"] . ":" . $_SERVER["SERVER_PORT"];
+		} else {
+			$pageURL .= $_SERVER["SERVER_NAME"];
+		}
+
+		return $pageURL . ShortUrlModel::getURL($url);
 	}
 }
