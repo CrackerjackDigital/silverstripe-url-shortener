@@ -3,7 +3,6 @@
  *
  */
 class ShortUrlModel extends DataObject {
-	protected static $chars = "123456789bcdfghjkmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ";
 
 	private static $db = [
 		"LongURL" => "Text",
